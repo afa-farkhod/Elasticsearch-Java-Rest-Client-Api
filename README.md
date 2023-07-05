@@ -30,4 +30,12 @@ Elasticsearch Java Rest High Level Client Api
             <version>7.9.2</version>
         </dependency>
     ```
+- [Installation in a Maven project by using Jackson](https://www.elastic.co/guide/en/elasticsearch/client/java-api-client/current/installation.html#maven) - Elasticsearch uses Jackson as its default JSON library for serializing and deserializing JSON data. Jackson is a popular Java library for working with JSON, providing functionalities to convert Java objects to JSON and vice versa.
   
+```
+      <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.13.0</version>
+        </dependency>
+```
