@@ -11,6 +11,7 @@ Elasticsearch Java Rest High Level Client Api
   - trace logging of requests and responses
   - optional automatic discovery of cluster nodes
   - `Maven` dependency (`pom.xml`):
+    
     ```
        <dependency>
             <groupId>org.elasticsearch.client</groupId>
@@ -23,6 +24,7 @@ Elasticsearch Java Rest High Level Client Api
   - Each API can be called synchronously or asynchronously. The synchronous methods return a response object, while the asynchronous methods, whose names end with the async suffix, require a listener argument that is notified (on the thread pool managed by the low level client) once a response or an error is received.
   - The Java High Level REST Client depends on the Elasticsearch core project. It accepts the same request arguments as the TransportClient and returns the same response objects.
   - `Maven` dependency (`pom.xml`):
+    
     ```
        <dependency>
             <groupId>org.elasticsearch.client</groupId>
