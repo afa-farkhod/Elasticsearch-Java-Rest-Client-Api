@@ -41,3 +41,29 @@ Elasticsearch Java Rest High Level Client Api
             <version>2.13.0</version>
         </dependency>
 ```
+
+## [Java Rest API Connection (Low Level Client & High Level Client)](https://www.elastic.co/guide/en/elasticsearch/client/java-rest/7.17/java-rest-overview.html)
+
+- `HighLevelRestClientRemoteServer` sample inside the folder: `ElasticHighLevelRemote` - First we check Elasticsearch remote server connection with High Level Rest Client. Api allows to enter the index name, field name and value(key word), then runs the `vector search` to bring the related result(ignore the error message, it is just saying that Log4j2 should be updated, api itself works fine):  
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/24220136/236648733-45a06d69-2a83-4b37-960c-83374e9a4cbe.png" alt="Image">
+</p>
+
+- `HighLevelRestClientLocalServer` sample inside the folder: `ElasticHighLevelLocal` - Now we check High Level Rest Client Api Elasticsearch local server. In the case of flowers_dataset data.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/24220136/236648733-45a06d69-2a83-4b37-960c-83374e9a4cbe.png" alt="Image">
+</p>
+
+- `LowLevelRestCLientRemoteServer` sample inside the folder: `ElasticLowLevelRemote` - is the Low Level Rest Client Api with Elasticsearch remote server: 
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/24220136/236648990-f6332097-a176-48fb-94d9-0796cf326de0.png" alt="Image">
+</p>
+
+- `LowLevelRestClientLocalServer` sample inside the folder: `ElasticLowLevelLocal` - is the Low Level Rest Client Api with Elasticsearch local server:
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/24220136/236649253-39df4828-341f-49e5-9102-a8b47d74ae95.png" alt="Image">
+</p>
